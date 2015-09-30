@@ -25,6 +25,16 @@ class Ex_PerfChunk_Initialize(Exception): pass
 
 # this is the ultimate class that will generate the sys return code
 class NagiosReturn(Exception):
+    ''' Build and throw this exception to get Nagios to understand
+    the output of your script. 
+
+    This is an Exception designed to provide
+    sys a return code from the execution of a Python
+    Nagios script. Nagios expects every plugin to provide
+    a return code (0,1,2) in order to determine ok/warn/crit.
+    The message is what shows up as the output of a plugin in
+    Nagios. 
+    '''
     def __init__(self, message, code):
         self.message = message
         self.code = code
