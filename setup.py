@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'nagpyrc',
   packages = ['nagpyrc'], 
-  version = '0.1',
+  version = '0.2',
   description = 'Helper library for generating Nagios return code messages with perfdata',
   author = 'Russell Endicott',
   author_email = 'rendicott@gmail.com',
