@@ -1,5 +1,5 @@
-# nagpy
-Python library that's handy for use in generating Nagios return code messages with perfdata. Import nagpy into your script and use the example at the bottom to easily generate Nagios return codes from your own scripts.
+# nagpyrc
+Python library that's handy for use in generating Nagios return code messages with perfdata. Import nagpyrc into your script and use the example at the bottom to easily generate Nagios return codes from your own scripts.
 
 ## Usage
 
@@ -7,9 +7,9 @@ Python library that's handy for use in generating Nagios return code messages wi
 # EXAMPLE
 if __name__ == '__main__':
     import sys
-    from nagpy import NagiosReturn
-    from nagpy import PerfChunk
-    from nagpy import NagiosReturnCode
+    from nagpyrc import NagiosReturn
+    from nagpyrc import PerfChunk
+    from nagpyrc import NagiosReturnCode
     
     # write some code that checks something
     # now use outputs from that to generate a NagiosReturnCode object.
