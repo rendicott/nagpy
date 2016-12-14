@@ -1,6 +1,11 @@
 # nagpyrc
 Python library that's handy for use in generating Nagios return code messages with perfdata. Import nagpyrc into your script and use the example at the bottom to easily generate Nagios return codes from your own scripts.
 
+## Installation
+```
+pip install nagpyrc
+```
+
 ## Usage
 
 ```python
